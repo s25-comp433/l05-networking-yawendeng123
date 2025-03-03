@@ -47,7 +47,7 @@ struct ContentView: View {
                             .fontWeight(.regular)
                             .foregroundStyle(.primary)
                         
-                        var location = game.isHomeGame ? "Home" : "Away"
+                        let location = game.isHomeGame ? "Home" : "Away"
                         
                         Text("\(location)")
                             .font(.footnote)
